@@ -1,0 +1,44 @@
+header {
+    position: realtive;
+    height: 45px;
+}
+
+.metro .customer .tile .brand {
+    top: 0;
+    bottom: auto;
+}
+
+.metro .listview .list.selected .list-content {
+    padding: 7px;
+}
+
+.money_table input {
+    width: 50px;
+}
+
+.container.content {
+    padding-bottom: 30px;
+}
+
+.sum {
+    text-align: right;
+}
+
+.print {
+    display: none;
+}
+
+.sumsum {
+    display: inline;
+    float: right;
+    margin: 3px 0 0 0;
+    padding: 1px 3px 0 0;
+    border-top: 3px double #000;
+    font-weight: bold;
+}
+
+
+#articles_in, #articles_out {
+        overflow: auto; 
+        max-height: 500px;
+}

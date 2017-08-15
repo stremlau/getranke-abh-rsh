@@ -1,0 +1,32 @@
+.articlebox {
+    float: left;
+    width: 100px;
+    height: 100px;
+    font-family: Helvetica;
+    background: #0000ff;
+    color: #fff;
+}
+
+#select_article_amount {
+    position: absolute;
+    width: 180px;
+}
+
+.metro #select_article_amount .tile.half .tile-content.number {
+    text-align: center;
+    line-height: 55px;
+}
+
+.metro .tile.halfhalf {
+    width: 55px;
+    height: 27px;
+}
+
+.metro #select_article_amount .tile.halfhalf .tile-content.number {
+    text-align: center;
+    line-height: 27px;
+}
+
+.metro #select_article_amount .tile {
+    margin: 0 5px 5px 0;
+}

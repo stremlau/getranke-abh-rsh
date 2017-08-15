@@ -1,0 +1,58 @@
+input, textarea {
+    clear: both;
+    font-size: inherit;
+    font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
+    padding: 2px;
+    width: auto;
+}
+
+#add_article_ac {
+    border: 1px solid #555;
+    padding: 2px;
+    color: #aaa;
+}
+
+#add_article_ac strong {
+    font-weight: normal;
+    color: #177A0F;
+}
+
+#navi {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navi li {
+    float: left;
+    background-color: darkorange;
+    margin: 0 8px 0 0;
+    padding: 4px;
+}
+
+#navi li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.article_box {
+    background-color: rgb(252, 248, 239);
+}
+
+.article_box h2 {
+    color: orange;
+    background-color: transparent;
+    font-size: 18px;
+    margin: 0;
+}
+
+.article_box table tr:nth-child(even) {
+    background: #FFF2E0;
+}
+
+.article_box .total {
+    text-align: right;
+    margin: 0 6px;
+    padding: 0;
+}
+

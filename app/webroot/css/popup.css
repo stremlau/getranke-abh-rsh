@@ -1,0 +1,12 @@
+#unpaid-bills, #unpaid-bill-template, #unpaid-bills-total, #bill-article-template, #bill {
+    display: none;
+}
+
+.listview.fluent {
+    margin-top: 30px;
+}
+
+.metro .table th, .metro .table td {
+    padding: 1px 4px;
+    font-size: 15px;
+}

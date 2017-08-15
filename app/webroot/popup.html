@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link href="/favicon.ico" type="image/x-icon" rel="icon" />
+    <link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+    <link rel="stylesheet" type="text/css" href="/css/popup.css" />
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/metro-bootstrap.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/css/metro-bootstrap-responsive.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/css/iconFont.min.css" />
+    <script type="text/javascript" src="/js/jquery.widget.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="/js/metro.min.js" media="screen"></script>
+    <script type="text/javascript" src="/js/popup.js" media="screen"></script>
+    <link rel="stylesheet" type="text/css" href="/css/general.css" />
+    <link rel="stylesheet" type="text/css" href="/css/popup.css" />
+</head>
+<body class="metro">
+<header>
+<nav class="navigation-bar">
+    <nav class="navigation-bar-content container">
+        <a href="/" class="element"><span class="icon-cart-2"></span> GETR&Auml;NKE <sup>ABH/RSH</sup></a> 
+        <span class="element-divider">&nbsp;</span>
+
+        <a href="#" class="element"><span id="customer-icon" class="icon-user" style="display: none;"></span> <span id="customer">&nbsp;</span></a>
+        <a href="#" id="time" class="element place-right">...</a>
+        <span class="element-divider place-right">&nbsp;</span>
+        <a href="#" id="date" class="element place-right">...</a>
+    </nav>
+</nav>
+</header>
+<div id="unpaid-bills" class="container content ppage">
+    <h1>Offene Rechnungen</h1>
+    <div class="listview fluent">
+        <a href="#" id="unpaid-bill-template" class="list shadow unpaid-bill">
+            <div class="list-content">
+                <i class="icon-clipboard-2 fg-olive icon"></i>
+                <div class="data">
+                    <span class="list-title">loading...</span>
+                    <span class="list-subtitle fg-cobalt">loading...</span>
+                    <span class="list-remark">loading...</span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <span class="clearfix"></span>
+    <p id="unpaid-bills-total" class="readable-text">Gesamtsumme: <span id="unpaid-bills-total-value">100</span> &euro;</p>
+</div>
+<div id="bill" class="container content ppage">
+    <h1>Rechnung</h1>
+    <div class="grid">
+        <div class="row">
+            <div class="span6">
+                <h2>R&uuml;ckgabe</h2>
+                <table id="articles-in" class="table striped bordered hovered"><tbody>
+                    <tr>
+                        <th>A</th>
+                        <th>Artikelname</th>
+                        <th class="text-right">Preis</th>
+                        <th class="text-right">Pfand</th>
+                        <th class="text-right">Gesamt</th>
+                    </tr>
+                </tbody></table>
+            </div>
+            <div class="span6">
+                <h2>Einkauf</h2>
+                <table id="articles-out" class="table striped bordered hovered"><tbody>
+                    <tr>
+                        <th>A</th>
+                        <th>Artikelname</th>
+                        <th class="text-right">Preis</th>
+                        <th class="text-right">Pfand</th>
+                        <th class="text-right">Gesamt</th>
+                    </tr>
+                    <tr style="display: none;"></tr>
+                    <tr id="bill-article-template">
+                        <td class="amount">0</td>
+                        <td class="name">loading...</td>
+                        <td class="text-right price">loading...</td>
+                        <td class="text-right deposit">loading...</td>
+                        <td class="text-right total">loading...</td>
+                    </tr>
+                </tbody></table>
+            </div>
+        </div>
+    	<div class="row">
+       		<div class="span12">
+				<h2 class="text-right">Gesamt: <span id="bill-total">0</span> &euro;</h2>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
